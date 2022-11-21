@@ -10,6 +10,7 @@ function App() {
       <ButtonComponent content="It doesn't do anything"/>
 
       <ImageComponent url="http://placekitten.com/500/500" alt="This is a picture of a cat"/>
+      <ImageComponent url="http://placekitten.com/300/500" alt="Another cat"/>
       </div>
     </div>
   );
