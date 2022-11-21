@@ -1,5 +1,12 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  background-color: rebeccapurple;
 }
 
 .App-logo {
@@ -35,4 +42,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button{
+  max-width: 150px;
+  margin-bottom: 5px;
+}
+
+img{
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
